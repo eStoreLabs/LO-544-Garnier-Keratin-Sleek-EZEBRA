@@ -1,4 +1,4 @@
-const swiper = new Swiper('.es-swiper1', {
+const swiper = new Swiper('#es-garnier .es-swiper1', {
   direction: 'horizontal',
   loop: false,
 
@@ -10,5 +10,4 @@ const swiper = new Swiper('.es-swiper1', {
     nextEl: '.es-swiper1-button-next',
     prevEl: '.es-swiper1-button-prev',
   },
-
 });
